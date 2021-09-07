@@ -12,22 +12,22 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c973347-e6a8-46ba-9a13-f129721cb98a" name="Default Changelist" comment="">
+    <list default="true" id="1c973347-e6a8-46ba-9a13-f129721cb98a" name="Default Changelist" comment="Dagger2 constructor injection mechanism">
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/Dagger2DIBasics.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Dagger2DIBasics.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/Car.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/CarComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/Engine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/Car.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/CarComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/CarComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/Engine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/Engine.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/Wheels.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/Wheels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dhruhesh/dagger2dibasics/Wheels.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[100.124.72.34:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[100.96.113.9:5555]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -37,9 +37,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,6 +75,9 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.dhruhesh.dagger2dibasics.demo" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.dhruhesh.dagger2dibasics" />
     </key>

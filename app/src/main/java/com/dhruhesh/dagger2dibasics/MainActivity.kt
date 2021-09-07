@@ -8,15 +8,17 @@ class MainActivity : AppCompatActivity() {
 
     private val TAG = "MainActivity"
 
-    private lateinit var mCar: Car
+    @Inject
+    lateinit var mCar: Car
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         val carComponent = DaggerCarComponent.create()
+        carComponent.inject(this)
 
-        mCar = carComponent.car
+        //  mCar = carComponent.car
         mCar.drive()
     }
 }
