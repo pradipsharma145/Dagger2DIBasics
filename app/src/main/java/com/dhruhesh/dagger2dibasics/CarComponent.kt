@@ -2,7 +2,7 @@ package com.dhruhesh.dagger2dibasics
 
 import dagger.Component
 
-@Component
+@Component (modules = [WheelsModule::class])
 interface CarComponent {
 
     fun inject(mainActivity: MainActivity)
