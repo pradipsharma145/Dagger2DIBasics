@@ -1,14 +1,19 @@
 package com.dhruhesh.dagger2dibasics
 
+import android.util.Log
 import dagger.Module
 import dagger.Provides
 
 @Module
 object WheelsModule {
 
+    private const val TAG = "WheelsModule"
+
     @Provides
     fun provideRims(): Rims {
-        return Rims()
+        val rims = Rims()
+        rims.helloRims()
+        return rims
     }
 
     @Provides
@@ -20,6 +25,7 @@ object WheelsModule {
 
     @Provides
     fun provideWheels(rims: Rims, tires: Tires): Wheels {
+        Log.d(TAG, "provideWheels() learn Module...")
         return Wheels(rims, tires)
     }
 }

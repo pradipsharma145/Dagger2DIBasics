@@ -7,6 +7,6 @@ class Tires {
     private val TAG = "Tires"
 
     fun helloTires() {
-        Log.d(TAG, "helloTires()...")
+        Log.d(TAG, "helloTires() learn Module...")
     }
 }
